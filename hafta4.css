@@ -1,0 +1,48 @@
+
+body {
+    background-color: white;
+}
+
+
+h1 {
+    color: red;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+h3 {
+    color: red;
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+h4 {
+    font-size: 20px;
+    color: green;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+#deneme {
+    color: yellow;
+    font-size: 25px;
+}
+
+#deneme2 {
+    color: magenta;
+    font-size: 25px;
+}
+
+
+div.hafta4.css, .hafta4 {
+    text-align: center;
+}
