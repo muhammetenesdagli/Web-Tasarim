@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        var txt1 = "what a very";
+        var txt2 = "nice day";
+        var firstname, lastname;
+        firstname = "Enes";
+        lastname = "Dgl";
+        
+        document.write(txt1 + " " + txt2);
+        document.write("<br>");
+        document.write("Adım: " + " " + firstname);
+        document.write("<br>");
+        document.write("Soyadım: " + " " + lastname);
+        document.write("<br>");
+
+        
+        var sayi1 = 275;
+        var sayi2 = 5;
+        sonuc = sayi1 / sayi2;
+        document.write(sonuc);
+
+        document.write("<br>");
+        var sayi = 5 + 5;
+        document.write(sayi);
+        document.write("<br>");
+        
+        var sayi = "5" + "5";
+        document.write(sayi);
+        document.write("<br>");
+        
+        var sayi = "5" + 5;
+        document.write(sayi);
+        document.write("<br>");
+        
+        var sayi = 5 + "5";
+        document.write(sayi);
+        document.write("<br>");
+
+        
+        var age = 21;
+        if (age < 18) {
+            document.write("Henüz Reşit Değilsiniz");
+        } else if (age >= 18 && age < 23) {
+            document.write("Bu Yaşlarda Üniyi Bitirmelisiniz");
+        } else {
+            document.write("Üniyi Bitirmiş Olmalısın");
+        }
+
+        document.write("<br>");
+
+        
+        var gun = 3;
+        switch(gun) {
+            case 1:
+                document.write("Pazartesi");
+                break;
+            case 2:
+                document.write("Salı");
+                break;
+            case 3:
+                document.write("Çarşamba");
+                break;
+            case 4:
+                document.write("Perşembe");
+                break;
+            case 5:
+                document.write("Cuma");
+                break;
+            case 6:
+                document.write("Cumartesi");
+                break;
+            case 7:
+                document.write("Pazar");
+                break;
+            default:
+                document.write("Geçersiz gün numarası");
+        }
+
+        function uyari() {
+            alert("Bu Bir Uyarı Mesajıdır");
+        }
+ 
+        function toplama(sayi3, sayi4) {
+            toplam = sayi3 + sayi4;
+            return toplam;
+        }
+    </script>
+
+    <form>
+        <input type="button" value="Uyarı Ver" onclick="uyari()">
+    </form>
+    
+    <form>
+        <input type="button" value="Toplama" onclick="document.write(toplama(5, 10));">
+    </form>
+</body>
+</html>
